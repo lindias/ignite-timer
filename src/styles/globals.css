@@ -3,9 +3,13 @@
 @tailwind utilities;
 
 body {
-  @apply bg-gray-900 text-gray-300 text-4xl font-bold;
+  @apply bg-gray-900 text-gray-300;
 }
 
 :focus {
   @apply outline-none ring-2 ring-green-500;
+}
+
+::-webkit-calendar-picker-indicator {
+  display: none !important;
 }
